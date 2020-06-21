@@ -1,13 +1,13 @@
-# ──── Content MERN Proj. ────────────────────────────────────
+# ──── Content MERN Proj. 
 
 Front End React
 API HOOKS (useReducer , useContext)
 Libs CSS: Emotion / React-Spring / Bootstrap
-
+FETCH API HERE : https://github.com/CarlosRofts/CarlosRofts-todo-project-SERVER
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-## ──── Available Scripts ─────────────────────────────────────────────────────────────────
+## ──── Available Scripts 
 
 In the project directory, you can run:
 

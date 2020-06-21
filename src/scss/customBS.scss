@@ -1,0 +1,60 @@
+// Required
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+// DOC BS: https://getbootstrap.com/docs/4.4/getting-started/theming/
+// BS VARIABLES REPO: https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss
+// THEMING TUTO: https://uxplanet.org/how-to-customize-bootstrap-b8078a011203 
+
+// Base Layout
+// *, *::after , *::before {margin: 0; padding: 0; box-sizing: border-box;}
+//  html,body,#root,.container{
+//    min-height: 100vh;
+//  };
+
+
+//> BS VARIABLES
+// color inspiration codeply.com/go/uYPxiuNkbu
+$theme-colors: (
+  "primary":hsl(173, 58%, 39%),
+  "secondary": #6e6b79,
+  "success":#519700be,
+  "incomplete":#4a494e8f,  
+  "danger": #ff5067dc,  
+  "warning": #e46a07b7,
+  "info": #1d90d3,
+  );
+
+// BTN'S reset
+$btn-box-shadow:(none !important);
+$btn-focus-box-shadow:(none !important);
+$btn-active-box-shadow:(none !important);
+// $btn-border-radius: (none !important);
+$btn-font-size : (1em);
+
+button[class*="btn-"]:not([class*="btn-outline"]):hover{    
+  transform: translateY(-1px);
+  filter: brightness(130%);  
+}
+
+
+//  Inputs
+$input-bg: (rgb(255, 255, 255));
+$input-focus-bg : ((rgb(255, 255, 255)));
+$input-focus-box-shadow:( none);
+$input-focus-border-color:( none);
+$input-font-size:(1em); 
+
+//> Custom Variables
+// .row-dark {
+//     @extend .row;
+//     background-color: #333333;
+//     color: #ffffff;
+// };
+
+
+
+
+@import "../../~bootstrap/scss/bootstrap";
+

@@ -1,6 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ──── Content MERN Proj. ────────────────────────────────────
 
-## Available Scripts
+Front End React
+API HOOKS (useReducer , useContext)
+Libs CSS: Emotion / React-Spring / Bootstrap
+
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ──── Available Scripts ─────────────────────────────────────────────────────────────────
 
 In the project directory, you can run:
 
